@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:background="@android:color/holo_blue_light"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView android:textSize="30.0sp" android:textColor="@android:color/white" android:gravity="center" android:background="@android:color/holo_purple" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/app_name" />
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button  android:textSize="30.0sp" android:textStyle="bold" android:textColor="@android:color/holo_orange_light" android:id="@+id/addTeamBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add team" style="?android:buttonBarButtonStyle" />
+        <Button android:textSize="30.0sp" android:textStyle="bold" android:textColor="@android:color/holo_orange_light" android:id="@+id/exitBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Exit" style="?android:buttonBarButtonStyle" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ListView android:id="@+id/teamList" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>

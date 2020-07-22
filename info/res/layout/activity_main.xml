@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/holo_blue_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="25.0sp" android:textColor="@android:color/white" android:gravity="center" android:background="@android:color/holo_purple" android:layout_width="fill_parent" android:layout_height="60.0sp" android:text="Assignment Four" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <Button android:textSize="30.0sp" android:textStyle="bold" android:textColor="@android:color/holo_orange_light" android:id="@id/buttonAddRow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_city" style="?android:buttonBarButtonStyle" />
+        <Button android:textSize="30.0sp" android:textStyle="bold" android:textColor="@android:color/holo_orange_light" android:id="@id/buttonExit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exit" style="?android:buttonBarButtonStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/layoutListViewID" android:layout_width="wrap_content" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ListView android:id="@id/androidlist" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

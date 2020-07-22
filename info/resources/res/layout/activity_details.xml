@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/layoutTop" android:background="@android:color/holo_orange_light" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="20sp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/id"/>
+        <EditText android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="20sp" android:id="@+id/textViewID" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/large" android:inputType="text"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="20sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/city"/>
+        <EditText android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="20sp" android:id="@+id/textView0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/large" android:hint="@string/city2" android:maxLength="8" android:inputType="text"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="20sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name"/>
+        <EditText android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="20sp" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/large" android:hint="@string/name2" android:maxLength="8" android:inputType="text"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="20sp" android:id="@+id/textViewSportID" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sport"/>
+        <Spinner android:id="@+id/textView2spinner" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="20sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mvp"/>
+        <EditText android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="20sp" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/large" android:hint="@string/mvp2" android:maxLength="8" android:inputType="text"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/imageViewID" android:layout_width="150dp" android:layout_height="150dp" android:contentDescription="@string/app_name"/>
+        <Button android:textSize="20sp" android:textColor="@android:color/black" android:layout_gravity="center" android:id="@+id/buttonImageID" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/upload_image" style="?android:attr/buttonBarButtonStyle"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/layoutBottom" android:background="@android:color/holo_blue_dark" android:layout_width="match_parent" android:layout_height="match_parent">
+        <Button android:textSize="20sp" android:textColor="@android:color/black" android:id="@+id/buttonAddRow2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/submit" style="?android:attr/buttonBarButtonStyle"/>
+        <Button android:textSize="20sp" android:textColor="@android:color/black" android:id="@+id/buttonUpdate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/update" style="?android:attr/buttonBarButtonStyle"/>
+        <Button android:textSize="20sp" android:textColor="@android:color/black" android:id="@+id/buttonDelete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete" style="?android:attr/buttonBarButtonStyle"/>
+        <Button android:textSize="20sp" android:textColor="@android:color/black" android:id="@+id/buttonExit2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exit" style="?android:attr/buttonBarButtonStyle"/>
+    </LinearLayout>
+</LinearLayout>
